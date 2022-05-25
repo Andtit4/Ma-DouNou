@@ -1,7 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="navbar">
+      <router-link to="/product">Produits</router-link> |
+      <router-link to="/command">Commandes</router-link>
+      <router-link to="/about">A propos</router-link>
+    </div>
   </nav>
   <router-view/>
 </template>
@@ -26,5 +29,11 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+.vnb .button-red {
+    background: #FF3B30;
+}
+.vnb .button-red:hover {
+    background: #FC0D00;
 }
 </style>
