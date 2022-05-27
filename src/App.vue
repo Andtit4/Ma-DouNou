@@ -25,6 +25,7 @@
 <style>
 * {
   background-color: #f5f6fa;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
